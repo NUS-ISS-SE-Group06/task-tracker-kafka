@@ -7,28 +7,32 @@ This quick start guide covers the installation of Apache Kafka for managing topi
 ### Step 1: Create Project HOME Directory
 
      ```bash
-     createLocalDirectory
+     ./createLocalDirectory
      ```
 
-### Step 1: Start the Confluence Platform stack
+### Step 2: Start the Confluence Platform stack
 
      ```bash
      docker compose up -d
      ```
 
-### Step 2: Verify that the services are up and running
+### Step 3: Verify that the services are up and running
 
      ```bash
      docker ps
      ```
   
-### Step 3: Restart the services
+### Step 4: Restart the services
 
      ```bash
      docker compose restart <service-name>
      ```
 
-### Step 4: Stop Services
+### Step 5: Create Topics
+
+    ./kafka-topics
+
+### Step 6: Stop Services and Delete the instance
 
     docker compose stop
 
