@@ -4,6 +4,12 @@ This quick start guide covers the installation of Apache Kafka for managing topi
 
 ## Getting Started
 
+### Step 1: Create Project HOME Directory
+
+     ```bash
+     createLocalDirectory
+     ```
+
 ### Step 1: Start the Confluence Platform stack
 
      ```bash
