@@ -23,8 +23,6 @@ PARTITIONS=2
 # Replication factor
 REPLICATION_FACTOR=1
 
-docker exec -it br
-
 # Create topic
 
 for TOPIC in "${TOPICS[@]}"; do
