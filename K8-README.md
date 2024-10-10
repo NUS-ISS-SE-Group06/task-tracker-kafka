@@ -38,6 +38,4 @@
      #spring.kafka.properties.sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username="user1" password="******";
 
 
-
-
      ```
